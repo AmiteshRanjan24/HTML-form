@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amitesh Ranjan – Software Engineer Intern Résumé</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.6;
+        background: #f9f9f9;
+      }
+      h1,
+      h2 {
+        color: #333;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 5px;
+      }
+      form {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+      }
+      .section {
+        margin-bottom: 25px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      input[type="url"],
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #bbb;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      textarea {
+        resize: vertical;
+        min-height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Amitesh Ranjan</h1>
+    <form>
+      <!-- Personal Info -->
+      <div class="section">
+        <h2>Contact Information</h2>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" value="+91-8540908539" />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="amiteshranjan5524@gmail.com"
+        />
+
+        <label for="linkedin">LinkedIn</label>
+        <input
+          type="url"
+          id="linkedin"
+          name="linkedin"
+          value="https://www.linkedin.com/in/amitesh-ranjan-089806279/"
+        />
+
+        <label for="github">GitHub</label>
+        <input
+          type="url"
+          id="github"
+          name="github"
+          value="https://github.com/AmiteshRanjan24"
+        />
+
+        <label for="leetcode">LeetCode</label>
+        <input
+          type="url"
+          id="leetcode"
+          name="leetcode"
+          value="https://leetcode.com/u/AmiteshRanjan/"
+        />
+      </div>
+
+      <!-- Skills -->
+      <div class="section">
+        <h2>Skills</h2>
+        <label for="languages">Programming Languages</label>
+        <input
+          type="text"
+          id="languages"
+          name="languages"
+          value="C, C++, HTML, CSS, JavaScript"
+        />
+
+        <label for="tech">Technical Skills</label>
+        <input
+          type="text"
+          id="tech"
+          name="tech"
+          value="Data Structures, Algorithms, OOP"
+        />
+
+        <label for="tools">Technologies & Tools</label>
+        <input type="text" id="tools" name="tools" value="Linux, GitHub" />
+
+        <label for="soft">Soft Skills</label>
+        <input
+          type="text"
+          id="soft"
+          name="soft"
+          value="Decision Making, Time Management"
+        />
+      </div>
+
+      <!-- Project -->
+      <div class="section">
+        <h2>Project</h2>
+        <label for="project-title">Title</label>
+        <input
+          type="text"
+          id="project-title"
+          name="project-title"
+          value="Car Rental System"
+        />
+
+        <label for="project-link">Link</label>
+        <input
+          type="url"
+          id="project-link"
+          name="project-link"
+          value="https://github.com/AmiteshRanjan24/Car_Rental_System"
+        />
+
+        <label for="project-desc">Description</label>
+        <textarea id="project-desc" name="project-desc">
+Designed and implemented a Car Rental System using C++ (OOP: encapsulation, inheritance, polymorphism).
+Implemented dynamic pricing reservations; used vectors for storage; built a CLI user interface.
+      </textarea
+        >
+      </div>
+
+      <!-- Education -->
+      <div class="section">
+        <h2>Education</h2>
+        <label for="edu1"
+          >Kalinga Institute of Industrial Technology (2022–2026)</label
+        >
+        <textarea id="edu1" name="edu1">
+B.Tech. in Computer Science & Engineering, CGPA 8.59, Bhubaneswar, Odisha</textarea
+        >
+
+        <label for="edu2">Delhi Public School Jubilee (2020–2022)</label>
+        <textarea id="edu2" name="edu2">
+Higher Secondary Education, Motihari, Bihar</textarea
+        >
+
+        <label for="edu3">DAV Public School (2011–2020)</label>
+        <textarea id="edu3" name="edu3">
+Secondary Education, Motihari, Bihar</textarea
+        >
+      </div>
+
+      <!-- Achievements -->
+      <div class="section">
+        <h2>Achievements</h2>
+        <label for="achievements">List</label>
+        <textarea id="achievements" name="achievements">
+• LeetCode Contest 446: Rank 378/27686
+• LeetCode Contest 444: Rank 1413/28833
+• LeetCode Contest 440: Rank 1700/24518
+• 500+ problems solved; Knight badge; Peak rating 1876 (Top 5%)
+• 4-star rating on GeeksforGeeks
+• GfG University Ranking: Top 0.5% (47/9500+)
+      </textarea
+        >
+      </div>
+    </form>
+  </body>
+</html>
